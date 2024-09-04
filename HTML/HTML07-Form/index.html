@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        form {
+            background-color: bisque;
+            border: 2px solid rgba(0, 0, 0, 0.112);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FORMULÁRIOS</h1>
+    <!-- RPG DE PATOS-->
+    <h3>RPG de patos * Patonifique o seu formulario</h3>
+    <form action="">
+        <label for="">Nome:</label>
+        <input type="text" placeholder="Nome">
+        <br>
+        <br>
+        <label for="">Numero:</label>
+        <input type="number" placeholder="Numero">
+        <br>
+        <br>
+        <label for="">Senha:</label>
+        <input type="password" placeholder="senha">
+        <br>
+        <br>
+        <label for="">cor:</label>
+        <input type="color" placeholder="color">
+        <br>
+        <br>
+        <label for="">Link:</label>
+        <input type="url" placeholder="url">
+        <br>
+        <br>
+
+        online<input type="range">offline
+
+        <br>
+        <br>
+
+        <h4>Qual seu nivel?</h4>
+
+        <input type="radio" id="iniciante" name="nivel">
+        <label for="iniciante">iniciante</label>
+        <br>
+        <input type="radio" id="intermediario" name="nivel">
+        <label for="intermediario">intermediario</label>
+        <br>
+        <input type="radio" id="intermediario" name="nivel">
+        <label for="mestre">mestre(patauro)</label>
+
+        <br>
+        <br>
+
+        <h4>Com quantos patonautas voce costuma jogar?</h4>
+
+        <input type="checkbox" id="1">
+        <label for="1">1 patodavida</label>
+        <br>
+        <input type="checkbox" id="1">
+        <label for="1">4 patotones</label>
+        <br>
+        <input type="checkbox" id="1">
+        <label for="1">8 patotores</label>
+
+        <br>
+        <br>
+
+        <label for="">
+            <h3>Selecione a sua Patabilidade/PatoPower/PatoSkin </h3>
+        </label>
+        <select name="" id="">
+            <option value=""></option>
+            <option>Tio Patinhas</option>
+            <option>Pato Dev</option>
+            <option>Pato Guerreiro</option>
+            <option>Pato Gonalds</option>
+            <option>Pato Man</option>
+            <option>Pato Pombo</option>
+            <option>Pato Sauro</option>
+            <option>Pato Mago</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="patolands">
+            <h3>Selecione a sua PatoLand </h3>
+        </label>
+
+        <input type="text" autocomplete="on" list="patolands">
+        <datalist id="patolands">
+            <option value="PatoNautica"></option>
+            <option value="PatoCity"></option>
+            <option value="PatoPark"></option>
+            <option value="PatoWhite"></option>
+            <option value="PatoBlack"></option>
+        </datalist>
+
+        <button disabled>enviar</button>
+    </form>
+</body>
+
+<!-- 
+ action - para onde sera enviado os dados 
+ autocomplete - on ou off recuros de autocompletar o form 
+ autofocus - dar foco no campo
+ required - campo obrigatorio
+-->
+
+</html>

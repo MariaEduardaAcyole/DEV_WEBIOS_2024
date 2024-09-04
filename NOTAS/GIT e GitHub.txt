@@ -1,0 +1,51 @@
+## git hub ##
+1. rede social de devs
+2. banco que guarda os projetos
+
+
+## git ##
+1. sistema de versões 
+2. pornte entre enviar os projetos da maquina para o github
+3. versionador
+
+### funcionamento do git ###
+
+~ git init 
+= inicializa o repositorio local
+resp: cria a branch (master) 
+
+
+### branch ###
+   - são nomes de ramificações em um projeto, onde cada desenvolvedor pode criar sua(raiz) a partir do projeto principal e fazer as alterações de forma individual sem alterar o arquivo principal. 
+   - De forma simultanea sem preescrever o desenvolvimento do proximo
+   - Assim conseguindo diminuir as ocorrencias de erro como deletar o codigo do colega 
+
+(Main ou master) vai estar o projeto inicial
+
+
+~ git branch -M main 
+= modifica o nome da branch (master) para main
+resp: o nome da main muda para main
+
+~ git remote add origin LINKREPOSITORIO
+= conectou repositorio local com o remoto
+resp: nao da resposta no terminal se tudo certo
+
+~ git config --global user.name "NOMEDEUSUARIO"
+= configura o nome de usuario do github
+
+~ git config --global user.email "EMAIL"
+= configura o email de usuario do github
+
+~ git status 
+= verifica os status dos arquivos
+
+~ git add .
+=  
+
+# ATALHOS: #
+Ctrl+C: interrompe execução
+Botão direito do mouse: copiar e colar no terminal
+
+EM CASA
+~ Git clone LINKDOREPOSITORIO
