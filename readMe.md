@@ -16,9 +16,11 @@ resp: cria a branch (master)
 
 
 ### branch 
-
-   - são nomes de ramificações em um projeto, onde cada desenvolvedor pode criar sua(raiz) a partir do projeto principal e fazer as alterações de forma individual sem alterar o arquivo principal. 
+##### "copia"
+   - São nomes de ramificações em um projeto, onde cada desenvolvedor pode criar sua(raiz) a partir do projeto principal e fazer as alterações de forma individual sem alterar o arquivo principal. 
+   <br>
    - De forma simultanea sem preescrever o desenvolvimento do proximo
+   <br>
    - Assim conseguindo diminuir as ocorrencias de erro como deletar o codigo do colega 
 
 #### (Main ou master) vai estar o projeto inicial
@@ -89,9 +91,10 @@ resp: [main (root-commit) 2b16159] COMMIT
 
 # ATALHOS: #
 Ctrl+C: interrompe execução
+<br>
 Botão direito do mouse: copiar e colar no terminal
 
-EM CASA
+# EM CASA #
 ~ Git clone LINKDOREPOSITORIO
 git pull
 
@@ -102,7 +105,7 @@ git pull
 
 
 
-PADRAO
+# PADRAO #
 
 Git add .
 git commit -m ""
