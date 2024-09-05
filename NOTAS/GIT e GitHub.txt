@@ -69,17 +69,19 @@ resp: [main (root-commit) 2b16159] COMMIT
 ~git config --list
 = ve se a configuração foi realizada
 
+
+
 # ATALHOS: #
 Ctrl+C: interrompe execução
 Botão direito do mouse: copiar e colar no terminal
 
 EM CASA
 ~ Git clone LINKDOREPOSITORIO
+git pull
 
 PADRAO
 
 Git add .
 git commit -m ""
-git push -u origin main-
+git push -u origin main
 
-git pull
