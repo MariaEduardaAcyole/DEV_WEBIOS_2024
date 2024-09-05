@@ -79,6 +79,13 @@ EM CASA
 ~ Git clone LINKDOREPOSITORIO
 git pull
 
+1. abre terminal
+2. vai até a pasta do seu arquivo
+3. pega  link do repositorio
+4. git clone LINKDOREPOSITORIO
+
+
+
 PADRAO
 
 Git add .
