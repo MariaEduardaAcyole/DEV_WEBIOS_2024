@@ -17,7 +17,7 @@ resp: cria a branch (master)
 
 ### branch
 
-##### "copia"
+###### "copia"
 
 - São nomes de ramificações em um projeto, onde cada desenvolvedor pode criar sua(raiz) a partir do projeto principal e fazer as alterações de forma individual sem alterar o arquivo principal.
   <br>
@@ -62,47 +62,47 @@ resp: o nome da main muda para main -->
 ```
 ~ git config --global user.email "EMAIL"
 
-= configura o email de usuario do github
+<!-- = configura o email de usuario do github -->
 ```
 
 ```
 ~ git status
 
-= verifica os status dos arquivos
+<!-- = verifica os status dos arquivos -->
 resp: os arquivos
 ```
 
 ```
 ~ git add .
 
-= adicionar o arquivo Staging area
+<!-- = adicionar o arquivo Staging area -->
 ```
 
 ```
 ~ git rm --cached ARQUIVO QUE VOCE QUER RETIRAR NO STAGEAREA
 
-= depois do git add . quero retirar um dos arquivos
+<!-- = depois do git add . quero retirar um dos arquivos -->
 ```
 
 ```
 ~ git add *.js
 
-= subira todos que sao arquivos javascript
+<!-- = subira todos que sao arquivos javascript -->
 ```
 
 ```
 ~ git add -A
 
-= apaga um arquivo na sua maquina mas voce quer que apague no github tambem
+<!-- = apaga um arquivo na sua maquina mas voce quer que apague no github tambem -->
 ```
 
 ```
 ~ git commit -m ""
 
-= adicionar comentarios sobre a sua alteração
+<!-- = adicionar comentarios sobre a sua alteração
 resp: [main (root-commit) 2b16159] COMMIT
 15 files changed, 1031 insertions(+)
-create mode 100644 Apostilas/01.HTML.pdf
+create mode 100644 Apostilas/01.HTML.pdf -->
 ```
 
 ```
@@ -116,13 +116,13 @@ create mode 100644 Apostilas/01.HTML.pdf
 ```
 ~ git touch index.HTML
 
-= cria o arquivo
+<!-- = cria o arquivo -->
 ```
 
 ```
 ~git config --list
 
-= ve se a configuração foi realizada
+<!-- = ve se a configuração foi realizada -->
 ```
 
 # ATALHOS:
@@ -132,9 +132,12 @@ Ctrl+C: interrompe execução
 Botão direito do mouse: copiar e colar no terminal
 
 # EM CASA
-
-~ Git clone LINKDOREPOSITORIO
-git pull
+```
+~ git clone LINKDOREPOSITORIO
+```
+```
+~ git pull
+```
 
 1. abre terminal
 2. vai até a pasta do seu arquivo
