@@ -36,70 +36,74 @@ resp: o nome da main muda para main -->
 
 ```
 ~ git branch NOMEBRANCH
+
 <!-- cria a branch NOMEBRANCH -->
 ```
 
 ```
 ~ git checkout NOMEBRANCH
+
 <!-- muda para a NOMEBRANCH -->
 ```
 
 ```
 ~ git remote add origin LINKREPOSITORIO
 
-<!-- = conectou repositorio local com o remoto --> <br>
+<!-- = conectou repositorio local com o remoto --> 
 <!-- resp: nao da resposta no terminal se tudo certo -->
 ```
 
 ```
 ~ git config --global user.name "NOMEDEUSUARIO"
+
 <!-- = configura o nome de usuario do github -->
 ```
+
 ```
 ~ git config --global user.email "EMAIL"
-```
 
 = configura o email de usuario do github
+```
 
 ```
 ~ git status
-```
 
 = verifica os status dos arquivos
 resp: os arquivos
+```
 
 ```
 ~ git add .
-```
 
 = adicionar o arquivo Staging area
+```
 
 ```
 ~ git rm --cached ARQUIVO QUE VOCE QUER RETIRAR NO STAGEAREA
-```
 
 = depois do git add . quero retirar um dos arquivos
+```
 
 ```
 ~ git add *.js
-```
 
 = subira todos que sao arquivos javascript
+```
 
 ```
 ~ git add -A
-```
 
 = apaga um arquivo na sua maquina mas voce quer que apague no github tambem
+```
 
 ```
 ~ git commit -m ""
-```
 
 = adicionar comentarios sobre a sua alteração
 resp: [main (root-commit) 2b16159] COMMIT
 15 files changed, 1031 insertions(+)
 create mode 100644 Apostilas/01.HTML.pdf
+```
 
 ```
 ~git push -u origin main
@@ -111,15 +115,15 @@ create mode 100644 Apostilas/01.HTML.pdf
 
 ```
 ~ git touch index.HTML
-```
 
 = cria o arquivo
+```
 
 ```
 ~git config --list
-```
 
 = ve se a configuração foi realizada
+```
 
 # ATALHOS:
 
