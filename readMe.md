@@ -27,83 +27,94 @@ resp: cria a branch (master)
   <br>
 - Assim conseguindo diminuir as ocorrencias de erro como deletar o codigo do colega
 
+
 #### (Main ou master) vai estar o projeto inicial
 
 ```
 ~ git branch -M NOMEBRANCH
 ```
-<!-- = modifica o nome da branch (master) para main
-resp: o nome da main muda para main -->
+= modifica o nome da branch (master) para main
+resp: o nome da main muda para main
 
 
 ```
 ~ git branch NOMEBRANCH
 ```
-<!-- cria a branch NOMEBRANCH -->
+= cria a branch NOMEBRANCH
 
+(VA ATE A BRANCH QUE VOCE QUER ATUALIZAR)
 
 ```
 ~ git checkout NOMEBRANCH
 ```
-<!-- muda para a NOMEBRANCH -->
+= muda para a NOMEBRANCH
+
+```
+~ git merge branchAtualizar
+```
+= adiciona as mudanças a essa branch
+(quando é feito um git merge automaticamente é feito um commit)
+
+```
+~ git push origin main
+```
 
 
 ```
 ~ git remote add origin LINKREPOSITORIO
 ```
-<!-- = conectou repositorio local com o remoto --> 
-<!-- resp: nao da resposta no terminal se tudo certo -->
+= conectou repositorio local com o remoto --> 
+resp: nao da resposta no terminal se tudo certo 
 
 
 ```
 ~ git config --global user.name "NOMEDEUSUARIO"
 ```
-<!-- = configura o nome de usuario do github -->
+= configura o nome de usuario do github
 
 
 ```
 ~ git config --global user.email "EMAIL"
 ```
-<!-- = configura o email de usuario do github -->
+= configura o email de usuario do github
 
 
 ```
 ~ git status
 ```
-<!-- = verifica os status dos arquivos -->
+= verifica os status dos arquivos
 resp: os arquivos
-```
 
+```
 ~ git add .
 ```
-<!-- = adicionar o arquivo Staging area -->
+= adicionar o arquivo Staging area
 
 
 ```
 ~ git rm --cached ARQUIVO QUE VOCE QUER RETIRAR NO STAGEAREA
 ```
-
-<!-- = depois do git add . quero retirar um dos arquivos -->
+= depois do git add . quero retirar um dos arquivos
 
 
 ```
 ~ git add *.js
 ```
-<!-- = subira todos que sao arquivos javascript -->
+= subira todos que sao arquivos javascript
 
 
 ```
 ~ git add -A
 ```
-<!-- = apaga um arquivo na sua maquina mas voce quer que apague no github tambem -->
+= apaga um arquivo na sua maquina mas voce quer que apague no github tambem
 
 
 ```
 ~ git commit -m ""
 ```
 
-<!-- = adicionar comentarios sobre a sua alteração
--->
+= adicionar comentarios sobre a sua alteração
+
 
 ```
 ~git push -u origin main
@@ -116,14 +127,14 @@ resp: os arquivos
 ```
 ~ git touch index.HTML
 ```
-<!-- = cria o arquivo -->
+= cria o arquivo
 
 
 ```
 ~git config --list
 ```
 
-<!-- = ve se a configuração foi realizada -->
+= ve se a configuração foi realizada
 
 
 # ATALHOS:
@@ -134,10 +145,10 @@ Botão direito do mouse: copiar e colar no terminal
 
 # EM CASA
 ```
-~ git clone LINKDOREPOSITORIO
+ git clone LINKDOREPOSITORIO
 ```
 ```
-~ git pull
+ git pull
 ```
 
 1. abre terminal
@@ -147,7 +158,7 @@ Botão direito do mouse: copiar e colar no terminal
 
 # PADRAO
 ```
-Git add .
+git add .
 ```
 
 ```
