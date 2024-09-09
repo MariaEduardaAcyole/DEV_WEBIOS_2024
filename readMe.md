@@ -100,9 +100,7 @@ resp: os arquivos
 ~ git commit -m ""
 
 <!-- = adicionar comentarios sobre a sua alteração
-resp: [main (root-commit) 2b16159] COMMIT
-15 files changed, 1031 insertions(+)
-create mode 100644 Apostilas/01.HTML.pdf -->
+-->
 ```
 
 ```
@@ -145,7 +143,14 @@ Botão direito do mouse: copiar e colar no terminal
 4. git clone LINKDOREPOSITORIO
 
 # PADRAO
-
+```
 Git add .
+```
+
+```
 git commit -m ""
+```
+```
+
 git push -u origin main
+```

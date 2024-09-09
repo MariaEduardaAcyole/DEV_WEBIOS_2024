@@ -67,19 +67,20 @@ resp: os arquivos
 = apaga um arquivo na sua maquina mas voce quer que apague no github tambem
 ```
 ~ git commit -m ""
-```
 = adicionar comentarios sobre a sua alteração
-
 ```
 ~git push -u origin main
 ```
+
 ```
 ~git pull origin main --allow-unrelated-histories
 ```
+
 ```
 ~ git touch index.HTML
-```
 = cria o arquivo
+```
+
 ```
 ~git config --list
 ```
