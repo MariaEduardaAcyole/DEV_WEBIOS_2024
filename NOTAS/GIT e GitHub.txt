@@ -106,6 +106,8 @@ git pull
 # PADRAO #
 
 Git add .
+<br>
 git commit -m ""
+<br>
 git push -u origin main
 
