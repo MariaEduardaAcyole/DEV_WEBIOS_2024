@@ -11,11 +11,11 @@
 
 ## Funcionamento do Git
 
-´´´
-~ git init
-´´´
-= inicializa o repositorio local
+#### Criar novo repositório local
 resp: cria a branch (master)
+```
+~ git init
+```
 
 ### branch
 
@@ -30,91 +30,80 @@ resp: cria a branch (master)
 
 #### (Main ou master) vai estar o projeto inicial
 
+#### modifica o nome da branch (master) para main
+resp: o nome da main muda para main
 ```
 ~ git branch -M NOMEBRANCH
 ```
-= modifica o nome da branch (master) para main
-resp: o nome da main muda para main
 
-
+#### cria a branch NOMEBRANCH
 ```
 ~ git branch NOMEBRANCH
 ```
-= cria a branch NOMEBRANCH
 
-(VA ATE A BRANCH QUE VOCE QUER ATUALIZAR)
+### - Utilizar mais de uma BRANCH
 
+#### muda para a NOMEBRANCH
 ```
 ~ git checkout NOMEBRANCH
 ```
-= muda para a NOMEBRANCH
 
+#### adiciona as mudanças a essa branch
+- quando é feito um git merge automaticamente é feito um commit)
 ```
 ~ git merge branchAtualizar
 ```
-= adiciona as mudanças a essa branch
-(quando é feito um git merge automaticamente é feito um commit)
 
 ```
 ~ git push origin main
 ```
 
-
+#### conectou repositorio local com o remoto 
+resp: nao da resposta no terminal se tudo certo 
 ```
 ~ git remote add origin LINKREPOSITORIO
 ```
-= conectou repositorio local com o remoto --> 
-resp: nao da resposta no terminal se tudo certo 
 
-
+#### configura o nome de usuario do github
 ```
 ~ git config --global user.name "NOMEDEUSUARIO"
 ```
-= configura o nome de usuario do github
 
-
+#### configura o email de usuario do github
 ```
 ~ git config --global user.email "EMAIL"
 ```
-= configura o email de usuario do github
 
-
+#### verifica os status dos arquivos
+resp: os arquivos
 ```
 ~ git status
 ```
-= verifica os status dos arquivos
-resp: os arquivos
 
+#### adicionar o arquivo Staging area
 ```
 ~ git add .
 ```
-= adicionar o arquivo Staging area
 
-
+#### depois do git add . quero retirar um dos arquivos
 ```
 ~ git rm --cached ARQUIVO QUE VOCE QUER RETIRAR NO STAGEAREA
 ```
-= depois do git add . quero retirar um dos arquivos
 
-
+#### subira todos que sao arquivos javascript
 ```
 ~ git add *.js
 ```
-= subira todos que sao arquivos javascript
 
-
+#### apaga um arquivo na sua maquina mas voce quer que apague no github tambem
 ```
 ~ git add -A
 ```
-= apaga um arquivo na sua maquina mas voce quer que apague no github tambem
 
-
+#### adicionar comentarios sobre a sua alteração
 ```
 ~ git commit -m ""
 ```
-
-= adicionar comentarios sobre a sua alteração
-
 
 ```
 ~git push -u origin main
@@ -124,18 +113,15 @@ resp: os arquivos
 ~git pull origin main --allow-unrelated-histories
 ```
 
+#### cria o arquivo
 ```
 ~ git touch index.HTML
 ```
-= cria o arquivo
 
-
+#### ve se a configuração foi realizada
 ```
 ~git config --list
 ```
-
-= ve se a configuração foi realizada
-
 
 # ATALHOS:
 
@@ -147,6 +133,9 @@ Botão direito do mouse: copiar e colar no terminal
 ```
  git clone LINKDOREPOSITORIO
 ```
+
+#### puxa do repositorio para a maquina 
+
 ```
  git pull
 ```
@@ -168,3 +157,5 @@ git commit -m ""
 
 git push -u origin main
 ```
+
+3
