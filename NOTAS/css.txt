@@ -1,0 +1,20 @@
+CSS = ESTILO
+
+Estilo incorporado: dentro do html
+dentro da head
+<style></style>
+
+Estilo Inline: 
+<h1 style="color:red; background-color: black"> h1 </h1>
+
+Estilo Externo: 
+{index.hmtl e style.css}
+
+
+PRECEDENCIA
+
+1. Estilo Inline {<h1 style="color:red background-color: black">}
+2. Estilo incorporado {<style></style>}
+3. Estilo Externo {.hmtl e .css}
+4. Configurações do Usuario no navegador
+5. Padrão do Navegador
