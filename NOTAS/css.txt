@@ -18,3 +18,5 @@ PRECEDENCIA
 3. Estilo Externo {.hmtl e .css}
 4. Configurações do Usuario no navegador
 5. Padrão do Navegador
+
+

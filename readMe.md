@@ -6,7 +6,7 @@
 ## GIT
 
 1. sistema de versões
-2. pornte entre enviar os projetos da maquina para o github
+2. ponte entre enviar os projetos da maquina para o github
 3. versionador
 
 ## Funcionamento do Git
