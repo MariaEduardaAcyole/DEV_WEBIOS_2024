@@ -1,0 +1,62 @@
+body {
+  background-color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500; /*100 até 900 */
+}
+h1 {
+  color: white;
+  background-color: #000000;
+  font-family: "Nerko One", cursive;
+}
+h1 {
+  font-style: italic; /*equivalente ao <em>*/
+}
+p {
+  font-weight: 400;
+
+  line-height: 50px; /*distancia entre as linhas*/
+  color: white;
+  
+  font-size: 100%; /*tamanho do texto*/
+}
+
+img{
+    width: 50%;
+    height:auto;
+}
+
+div{
+    border: 1px black solid;
+}
+
+#p1{
+    font-size: 2rem;
+    /* 16*2 = 32px */
+}
+
+
+/*
+cm - centimetros
+in - polegadas 1 polegada = 2.54cm
+p - pixel
+% - 
+
+medidas absolutas: cm, in, PX
+medidas relativas: %, em, rem, vh, vw
+
+% = 
+
+--- O elemento root(raiz) = html
+
+em = relacionado ao elemento pai 
+div_pai  = 16px
+p_filho = 32px
+
+rem = sempre repondera ao tamanho configurado no elemento root
+
+2rem = multiplicar por 2
+
+HTML_pai  = 16px
+p_filho = 32px
+
+*/
