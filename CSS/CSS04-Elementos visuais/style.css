@@ -1,0 +1,47 @@
+figure{
+    background-image: url("./maniadevoce.png");
+
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+div{
+    border-radius: 10px;
+}
+#div0{
+   border: 10px rgb(0, 153, 255) outset;
+}
+#div1{
+    border: 10px rgb(0, 153, 255) dashed;
+}
+
+#div2{
+    border: 10px rgb(0, 153, 255) dotted;
+}
+#div3{
+    border: 10px rgb(0, 153, 255) groove;
+}
+
+img{
+    border: 3px outset black;
+    border-radius: 100%;
+}
+
+p,h1{
+    padding: 5px;
+    text-shadow: 5px 3px 2px rgb(0, 89, 255);
+}
+
+figcaption{
+    text-align: center;
+}
+
+#foto{
+    background-image: url('./image.png');
+
+    background-position: 50%;
+    background-attachment: fixed;
+}
+#gatinho{
+    box-shadow: 3px 3px 3px violet;
+}
