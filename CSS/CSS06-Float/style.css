@@ -1,0 +1,16 @@
+img{
+    float: left; 
+    /* deixa a direita livre */
+
+    padding:1%;
+}
+
+#img2{
+float: right;
+}
+
+p{
+    /* clear: both; */
+    /*limpa ambas as configurações*/
+    clear: left ;
+}
