@@ -12,5 +12,5 @@ float: right;
 p{
     /* clear: both; */
     /*limpa ambas as configurações*/
-    clear: left ;
+    clear: both ;
 }
