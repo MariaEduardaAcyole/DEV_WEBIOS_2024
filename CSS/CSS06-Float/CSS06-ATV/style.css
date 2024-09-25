@@ -1,0 +1,47 @@
+body {
+  margin: auto;
+width: 50%;
+height: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+figure{
+    margin: 0px;
+    width: 50%;
+    background-color: rgba(128, 255, 0, 0.315);
+}
+
+section,figure{
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+    height: max-content;
+}
+div{
+    width: 100%;
+    height: 5vh;
+    height: fit-content;
+    margin-bottom: 5%;  
+}
+
+#cima{
+    float: none;
+}
+#esquerda{
+    float: left;
+}
+#direita{
+    float: right;
+}
+#meio1{
+    clear: none;
+}

@@ -1,0 +1,37 @@
+/*
+pseudoclasse = 
+hover: mouse passa por cima -> ação
+
+*/
+
+a{color: aliceblue;}
+button{
+    background-color: darkblue;
+    color: aliceblue;
+    width: 70%;
+    height: 20vh;
+    border-radius: 30px;
+    font-size: 10em;
+    box-shadow: 10px 10px 5px darkblue;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(60, 255, 0);
+    box-shadow: 10px 10px 5px rgb(60, 255, 0);
+    border: 1px solid rgb(60, 255, 0);
+}
+
+input:focus{
+    background-color: rgba(0, 174, 255, 0.977);
+}
+
+li:first-child{
+    background-color: red;
+}
+li:last-child{
+    background-color: rgb(0, 98, 255);
+}
+
+li:nth-child(2){
+    background-color: rgb(247, 0, 255);
+}
