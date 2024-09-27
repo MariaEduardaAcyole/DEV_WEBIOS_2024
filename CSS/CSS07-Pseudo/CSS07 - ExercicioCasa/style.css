@@ -1,0 +1,13 @@
+/* div container terá que ter um padding de 2em */
+
+:root {
+  --marrom-escuro: #533618;
+  --marrom-medio: #533618;
+  --marrom-claro: #725436;
+  --cinza: #8c867c;
+  --cinza-claro: #c1c2bc;
+  --verde: #314a20;
+}
+.div-container{
+  padding: 2em
+}
