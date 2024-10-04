@@ -1,31 +1,81 @@
 /* propriedades do pai 
 
 display = 
+grid-template-areas = cria linhas - distancia entre as retas horizontais
+
 grid-template-columns = cria colunas - distancia entre as retas verticais
 --- grid-template-columns: 40px 50px auto 50px 40px;
-
 grid-template-rows = cria linhas
-grid-template-areas =
-column-gap =
-row-gap = 
-justify-items =
-align-items =
-justify-content =
-align-content =
-grid =
+
+column-gap = espaçamento entre as linhas verticais
+row-gap = espaçamento entre as linhas horizontais 
+justify-items = o posicionamento do conteudo dentro da celula (gruda no cano esquerdo)
+align-items = move os itens de cima para baixo (gruda no topo)
+align-self = mesma coisa que o Align items para um filho só
+justify-content = move o grid todo eixo horizontal
+align-content = move o grid todo eixo vertical
+
+grid-area: ->>>>>> NOMEIA OS ITENS
+grid-template-areas: " item item item"  ->>>> PREENCHE AS COLUNAS COM OS ITENS
+"" -> representam a linha
 
 */
 
+
+
+
 .container {
   display: grid;
-  background-color: crimson;
-  /*4 xolunas*/
+
+  /*3X4*/
+  /* grid-template-areas:
+    "pera pera pera pera"
+    "lukas lukas . pipoca"
+    "manasses manasses manasses manasses"; */
+
   grid-template-columns: 50px 50px 50px 50px;
-  /* grid-template-rows: 25% 25% 25% 25%; */
-  grid-template-rows: repeat(4, 25%);
+  grid-template-rows: 50px 50px 50px;
+
+  /*item pera ocupa 4 colunas*/
+  /*item lukas ocupa 2 colunas espaçoEmBranco ocupa 1 pipoca ocupa 1 */
+
+  /*4 colunas*/
+  /*  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 25% 25% 25% 25%; 
+  grid-template-rows: repeat(4, 50%); 
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: stretch; /*ocupa todo da esquerda para direita
+  justify-items: start; /*gruda a esquerda
+  justify-items: end; /*gruda a direita
+  justify-items: center; /*gruda a direita
+  align-items: center;
+  justify-content: center; move o grid para o meio eixo hotizontal
+  align-content: start; move o grid cima para baixo eixo vertical
+  */
 }
 
 .item {
-  border: 10px solid black;
-  background-color: cornflowerblue;
+  border: 1px solid black;
+  background-color: #a4e3e3;
+}
+.t1 {
+  /* grid-area: pipoca; */
+  grid-column: 1 / 5; /*da reta 1 a reta 5*/
+  grid-row: 1;
+}
+.t2 {
+  /* grid-area: pera; */
+  grid-column: 4;
+  grid-row: 2;
+}
+.t3 {
+  /* grid-area: lukas; */
+  grid-column: 1/5;
+  grid-row: 3;
+}
+.t4 {
+  /* grid-area: manasses; */
+  grid-column: 1/3;
+  grid-row: 2;
 }
