@@ -1,4 +1,8 @@
-
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .table {
   margin: 2%;
   border: 1px solid black;
@@ -6,4 +10,10 @@
 th,td{
   
     border-left: 1px solid blueviolet;
+}
+.titulo{
+    margin-left: 5%;
+}
+.card , .text-bg-dark{
+width: 90%;
 }
