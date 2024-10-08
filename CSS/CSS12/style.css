@@ -1,0 +1,13 @@
+.d-block {
+width: 50%;
+
+}
+.carousel-control-next, .carousel-control-prev{
+    background-color: rgba(0, 0, 0, 0.262);
+}
+
+@media (min-width: 700px) /*tela grande*/ {
+    .col{
+        width: 25%;
+    }
+}
