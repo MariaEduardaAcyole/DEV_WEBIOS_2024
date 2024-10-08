@@ -1,0 +1,9 @@
+
+.table {
+  margin: 2%;
+  border: 1px solid black;
+}
+th,td{
+  
+    border-left: 1px solid blueviolet;
+}
