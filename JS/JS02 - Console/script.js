@@ -1,5 +1,7 @@
 //nome de variaveis (não começa com numero, caractere especial)
-// = atribuição == comparação === veriicar se é identico
+// = atribuição 
+// == comparação 
+// === veriicar se é identico o tipo
 // let - nao permite repetir o nome da variavel
 // const - nao pode alterar ela
 
