@@ -1,7 +1,6 @@
 
 
-// Retorne apenas a nota da Maria
-// Retorno todo o array de objeto em formato JSON
+
 
 // Crie um Arrays de Objetos chamado aluno com as informações abaixo:
 
@@ -44,8 +43,9 @@ let aluno = [
     }
 ]
 
-console.log("ToDOS:" + aluno) // Retorne todo o array de objetos
+console.log("Todos:" + aluno) // Retorne todo o array de objetos
 console.log("Aluno Brenno" + aluno[4])// Retorne todas as informações do aluno Brunno
-console.log('Nota de Maria: ' + aluno[5].nota )
+console.log('Nota de Maria: ' + aluno[5].nota ) 
+// Retorne apenas a nota da Maria
 
-console.log(JSON.stringify(aluno)) //transforma em JSON
+console.log("---JSON---" + JSON.stringify(aluno)) // Retorno todo o array de objeto em formato JSON
