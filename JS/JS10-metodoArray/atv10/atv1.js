@@ -4,15 +4,18 @@
 let valores = [5, 8, 9, 3, 10, 58, 14, 20]
 
 // utilizando o método forEach crie uma função que receba cada valor do array e verifique se o número é par ou ímpar e exiba o resultado no console.log
+valores.forEach(ImparPar)
 
-function ImparPar (valor){
+function ImparPar(valor) {
 
     if (valor % 2 == 0) {
         console.log(valor, "par")
     }
-    else{
+    else {
         console.log(valor, "impar")
 
     }
 }
+
+
 
