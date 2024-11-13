@@ -37,9 +37,9 @@ class contaBancaria {
 }
 
 // Instancie 3 objetos um para cada conta da classe contaBancaria e imprima as seguintes informações:
-let cliente1 = new contaBancaria('Maria' , 18 , 1500, 'feminino', 0001, 999, 05)
-let cliente2 = new contaBancaria('Eduarda' , 18 , 2000, 'feminino', 0001, 999, 05)
-let cliente3 = new contaBancaria('Acyole' , 18 , 2500, 'feminino', 0001, 999, 05)
+let cliente1 = new contaBancaria('Maria' , 18 , 1500, 'feminino', 1, 999, 5)
+let cliente2 = new contaBancaria('Eduarda' , 18 , 2000, 'feminino', 1, 999, 5)
+let cliente3 = new contaBancaria('Acyole' , 18 , 2500, 'feminino', 1, 999, 5)
 
 // Imprimir no console os dados do usuário, e o novo salário da aluna com o desconto aplicado
 

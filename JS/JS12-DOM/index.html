@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <button id="botao" onclick="Clicar()">Enviar</button>
+    <p id="titulo">Enviar</p>
+
+    <script>
+        let botao = document.getElementById('botao')
+        let titulo = document.getElementById('titulo')
+        //DOM é gerado pelo browser
+        function Clicar() {
+            titulo.innerHTML = 'CLICOU'
+            document.body.style.backgroundColor = "red"
+
+        }
+
+        // document.body.style.backgroundColor = "black"
+        document.title = "socorro DOM"
+
+        document.documentElement.lang = 'pt-br'
+
+
+        let botaoCriado = document.createElement('button')
+        document.body.appendChild(botaoCriado).innerHTML = 'botao criado'
+
+        botaoCriado.style.borderRadius = '5px'
+        botaoCriado.style.backgroundColor = 'pink'
+
+
+    </script>
+
+    <!-- <script src="./script.js"></script> -->
+</body>
+
+</html>
