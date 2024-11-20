@@ -1,0 +1,17 @@
+
+#mostraJSON {
+    border: 1px solid black;
+    width: auto;
+    height: 200px;
+}
+
+#mostraIMG {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    width: auto;
+    height: 50px;
+}
