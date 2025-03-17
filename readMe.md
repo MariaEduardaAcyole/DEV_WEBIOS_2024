@@ -123,6 +123,11 @@ resp: os arquivos
 ~git config --list
 ```
 
+#### voltar versão 
+```
+~ git reset --hard 76751d3d617cffcb81e9bffa6e9b1a45aaf14db9
+```
+
 # ATALHOS:
 
 Ctrl+C: interrompe execução
